@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <div class="d-block m-auto ">
+        <h3 class="text-center text-secondary font-weight-bold my-3">Quizz culture générale !</h3>
+ 
+    </div>
+</header>
+
+<form class="form">
+    <div class="card p-2 my-2 question-block">
+        <div>
+        <h5>Qui est l'empereur de France le 2 décembre 1804 ?</h5>
+        </div>
+        <div>
+            <input type="radio" id="Clovis" name="q1" value="a" checked>
+            <label for="Clovis"> Clovis </label>
+        </div>
+        <div>
+            <input type="radio" id="Louis XVI" name="q1" value="b">
+            <label for="Louis XVI">Louis XVI</label>
+        </div>
+        <div>
+            <input type="radio" id="Napoléon I" name="q1" value="c">
+            <label for="Napoléon I">Napoléon I</label>
+        </div>
+    </div>
+
+    <div class="card p-2 my-2 question-block">
+        <div >
+        <h5>Quelle est la date du couronnement du premier roi des Francs ?</h5>
+        </div>
+        <div>
+            <input type="radio" id="398" name="q2" value="a" checked>
+            <label for="398"> 398 </label>
+        </div>
+        <div>
+            <input type="radio" id="496" name="q2" value="b">
+            <label for="496">496</label>
+        </div>
+        <div>
+            <input type="radio" id="469" name="q2" value="c">
+            <label for="469">469</label>
+        </div>
+    </div>
+
+    <div class="card p-2 my-2 question-block">
+        <div class="title">
+        <h5>La chute de l'emire romain d'occident a lieu en ?</h5>
+        </div>
+        
+        <div>
+            <input type="radio" id="245" name="q3" value="a" checked>
+            <label for="245"> 245 </label>
+        </div>
+        <div>
+            <input type="radio" id="15" name="q3" value="b">
+            <label for="15">15</label>
+        </div>
+        <div>
+            <input type="radio" id="395" name="q3" value="c">
+            <label for="395">395</label>
+        </div>
+    </div>
+
+    <div class="card p-2 my-2 question-block">
+        <div class="title">
+        <h5>Quelle est le premier empereur de Rome ?</h5>
+        </div>
+        
+        <div>
+            <input type="radio" id="Auguste" name="q4" value="a" checked>
+            <label for="Auguste"> Auguste </label>
+        </div>
+        <div>
+            <input type="radio" id="Cicéron" name="q4" value="b">
+            <label for="Cicéron">Cicéron</label>
+        </div>
+        <div>
+            <input type="radio" id="César" name="q4" value="c">
+            <label for="César">César</label>
+        </div>
+    </div>
+
+    <div class="card p-2 my-2 question-block">
+        <div >
+        <h5>Quelle ville a été ensevelie sous les cendres du Vésuve ?</h5>
+        </div >
+        
+        <div>
+            <input type="radio" id="Naples" name="q5" value="a" checked>
+            <label for="Naples"> Naples </label>
+        </div>
+        <div>
+            <input type="radio" id="Pompéï" name="q5" value="b">
+            <label for="Pompéï">Pompéï</label>
+        </div>
+        <div>
+            <input type="radio" id="Rome" name="q5" value="c">
+            <label for="Rome">Rome</label>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-secondary d-block mx-auto my-3">Validez vos choix !</button>
+
+</form>
+
+    <div class="resultats card m-auto">
+       <h5 class="card-title text-center mt-3">Cliquez sur valider pour voir les résultats.</h5>
+       <p class="message"></p>
+       <p class="note"></p>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
